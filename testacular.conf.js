@@ -6,7 +6,7 @@
 // https://github.com/vojtajina/testacular/blob/stable/lib/config.js#L54
 
 
-// base path, that will be used to resolve files and exclude
+ // base path, that will be used to resolve files and exclude
 basePath = '';
 
 // list of files / patterns to load in the browser

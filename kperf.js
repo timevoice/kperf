@@ -5,7 +5,7 @@
  * Time: 22:47
  * To change this template use File | Settings | File Templates.
  */
-function returnOne(){
+function returnOne() {
     return 1;
 
 }
