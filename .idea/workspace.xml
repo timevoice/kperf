@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testacular.conf.js" afterPath="$PROJECT_DIR$/testacular.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="l.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="testacular.conf.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testacular.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="7" selection-start="863" selection-end="863" vertical-scroll-proportion="0.625">
+            <state line="17" column="2" selection-start="609" selection-end="609" vertical-scroll-proportion="0.32608697">
               <folding />
             </state>
           </provider>
@@ -297,6 +297,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kperf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
@@ -306,16 +313,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testacular.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="863" selection-end="863" vertical-scroll-proportion="0.625">
+        <state line="17" column="2" selection-start="609" selection-end="609" vertical-scroll-proportion="0.32608697">
           <folding />
         </state>
       </provider>
