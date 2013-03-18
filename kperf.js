@@ -10,9 +10,3 @@ function returnOne() {
 
 }
 
-describe("returnOne", function() {
-    it("WoW", function() {
-        expect(returnOne(0)).toBe(1);
-    });
-
-});

@@ -5,3 +5,9 @@
  * Time: 22:49
  * To change this template use File | Settings |  File Templates.
  */
+describe("returnOne", function() {
+    it("WoW", function() {
+        expect(returnOne(0)).toBe(1);
+    });
+
+});
