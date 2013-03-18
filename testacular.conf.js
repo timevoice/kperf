@@ -14,7 +14,7 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   'kperf.js',
-   'kperfSpec.js'
+  'kperfSpec.js'
 ];
 
 // list of files to exclude
