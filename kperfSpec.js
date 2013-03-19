@@ -23,16 +23,26 @@ describe("returnOne", function() {
 
 
 
-walk =  function () {
+ var walk =  function () {
     a = 2;
     b = 3;
     return a + b;
 }
 
-run = function (){
+var run = function (){
     return 2 + 3;
 }
 
-var supers = kperf( walk, run);
 
-expect( supers() ).toBe(5)
+var supers = function kperf( walk, run){
+
+};
+
+describe("supers", function() {
+    it( function() {
+        expect(supers()).toBe(5);
+    });
+
+});
+
+

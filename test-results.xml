@@ -1,13 +1,22 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-19T20:56:25" id="0" hostname="MacBook-Pro-voice.local" tests="0" errors="1" failures="0" time="0">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-19T21:19:22" id="0" hostname="MacBook-Pro-voice.local" tests="2" errors="0" failures="0" time="0.003">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
-    <system-out><![CDATA[Chrome 25.0 (Mac) ERROR
-	Uncaught ReferenceError: kperf is not defined
-	at /Users/voice/PhpstormProjects/l/kperfSpec.js:36
-
+    <testcase name="WoW" time="0.003" classname="Chrome 25.0 (Mac).returnOne"/>
+    <testcase name="undefined" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-19T21:19:22" id="0" hostname="MacBook-Pro-voice.local" tests="2" errors="0" failures="0" time="0.003">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
+    </properties>
+    <testcase name="WoW" time="0.003" classname="Chrome 25.0 (Mac).returnOne"/>
+    <testcase name="undefined" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <system-out><![CDATA[
 ]]></system-out>
     <system-err/>
   </testsuite>

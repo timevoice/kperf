@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/l.iml" afterPath="$PROJECT_DIR$/.idea/l.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testacular.conf.js" afterPath="$PROJECT_DIR$/testacular.conf.js" />
     </list>
     <ignored path="l.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testacular.conf.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testacular.conf.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testacular.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="548" selection-end="548" vertical-scroll-proportion="-2.0747921">
+            <state line="63" column="13" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kperfSpec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="3" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+            <state line="42" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.66759">
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/testacular.conf.js" />
         <option value="$PROJECT_DIR$/kperf.js" />
+        <option value="$PROJECT_DIR$/testacular.conf.js" />
         <option value="$PROJECT_DIR$/kperfSpec.js" />
       </list>
     </option>
@@ -358,16 +358,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperfSpec.js">
+    <entry file="file://$PROJECT_DIR$/testacular.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="3" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+        <state line="63" column="13" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testacular.conf.js">
+    <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="548" selection-end="548" vertical-scroll-proportion="-2.0747921">
+        <state line="42" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.66759">
           <folding />
         </state>
       </provider>
