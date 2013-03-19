@@ -10,3 +10,15 @@ function returnOne() {
 
 }
 
+function walk() {
+    a = 2;
+    b = 3;
+    return a + b;
+}
+
+function run(){
+    return 2 +3;
+}
+
+var move = kperf( walk, run);
+move();
