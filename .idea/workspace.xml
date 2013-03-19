@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperf.js" afterPath="$PROJECT_DIR$/kperf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testacular.conf.js" afterPath="$PROJECT_DIR$/testacular.conf.js" />
     </list>
     <ignored path="l.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kperf.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kperf.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.49861497">
               <folding />
             </state>
           </provider>
@@ -37,16 +37,16 @@
       <file leaf-file-name="testacular.conf.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testacular.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="13" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+            <state line="63" column="22" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kperfSpec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.66759">
+            <state line="16" column="2" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kperf.js" />
         <option value="$PROJECT_DIR$/testacular.conf.js" />
+        <option value="$PROJECT_DIR$/kperf.js" />
         <option value="$PROJECT_DIR$/kperfSpec.js" />
       </list>
     </option>
@@ -344,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/WebIde50/extLibs/nodejs-v0.10.0-src/core-modules-sources/lib/module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="473" column="9" selection-start="13303" selection-end="13303" vertical-scroll-proportion="18.864265">
@@ -360,14 +353,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testacular.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="13" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+        <state line="63" column="22" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.66759">
+        <state line="16" column="2" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kperf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.49861497">
           <folding />
         </state>
       </provider>

@@ -5,3 +5,23 @@
  * Time: 22:47
  * To change this template use File | Settings | File Templates.
  */
+function returnOne() {
+    return 1;
+
+}
+
+
+var walk =  function () {
+    a = 2;
+    b = 3;
+    return a + b;
+}
+
+var run = function (){
+    return 2 + 3;
+}
+
+
+var supers = function kperf( walk, run){
+
+};
