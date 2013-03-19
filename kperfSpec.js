@@ -35,4 +35,4 @@ run = function (){
 
 var supers = kperf( walk, run);
 
-expect( supers() ).toBe(5)  
+expect( supers() ).toBe(5)
