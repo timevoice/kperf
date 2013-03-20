@@ -18,7 +18,26 @@
 
 
 
+function returnOne() {
+    return 1;
 
+}
+
+
+var walk =  function () {
+    a = 2;
+    b = 3;
+    return a + b;
+}
+
+var run = function (){
+    return 2 + 3;
+}
+
+
+var supers = function kperf( walk, run){
+
+};
 
 
 describe("supers", function() {
