@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperf.js" afterPath="$PROJECT_DIR$/kperf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
-    </list>
+    <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="" />
     <ignored path="l.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +26,6 @@
             <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1363810022000" expanded="true" signature="79:157" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,7 +52,7 @@
       <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.75069255">
+            <state line="38" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.4570637">
               <folding />
             </state>
           </provider>
@@ -339,7 +334,6 @@
         <state line="12" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1363810022000" expanded="true" signature="79:157" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -384,14 +378,13 @@
         <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1363810022000" expanded="true" signature="79:157" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.75069255">
+        <state line="38" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.4570637">
           <folding />
         </state>
       </provider>
