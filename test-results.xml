@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-20T20:07:39" id="0" hostname="MacBook-Pro-voice.local" tests="2" errors="0" failures="0" time="0.001">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-21T20:46:46" id="0" hostname="MacBook-Pro-voice.local" tests="4" errors="0" failures="0" time="0.003">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
-    <testcase name="undefined" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="undefined" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="walk" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="run" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="returnOne" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <system-out><![CDATA[
 ]]></system-out>

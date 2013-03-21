@@ -45,9 +45,18 @@ describe("supers", function() {
         expect(supers()).toBe(5);
     });
 
+    it("walk", function() {
+        expect(walk(window.document)).toBeDefined();
+    });
+
+    it("run", function() {
+        expect(run(window.document)).toBeDefined();
+    });
+
     it("returnOne",  function() {
         expect(returnOne(0)).toBe(1);
     });
+
 
 });
 
