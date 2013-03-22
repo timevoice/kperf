@@ -35,7 +35,6 @@ var supers = function kperf( walk, run){
 
 };
 */
-var b = kperf();
 
 
 describe("supers", function() {
@@ -47,6 +46,7 @@ describe("supers", function() {
     });
 
     it("function return kperf", function() {
+        var b = kperf();
 
         expect(b).toEqual(jasmine.any(Function));
 
