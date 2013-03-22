@@ -44,8 +44,11 @@ describe("supers", function() {
 
     });
 
+    it("function return kperf", function() {
 
+        expect(b).toEqual(jasmine.any(Function));
 
+    });
 
 
 });

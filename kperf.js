@@ -6,4 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 var kperf = function () {
+    return function tron(){};
 }
+
+var b = kperf();
