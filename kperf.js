@@ -9,4 +9,3 @@ var kperf = function () {
     return function tron(){};
 }
 
-var b = kperf();
