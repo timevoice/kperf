@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperf.js" afterPath="$PROJECT_DIR$/kperf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
     </list>
@@ -23,13 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kperf.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kperf.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="7" column="23" selection-start="180" selection-end="180" vertical-scroll-proportion="0.29085872">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kperfSpec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="478" selection-end="478" vertical-scroll-proportion="0.33518004">
+            <state line="37" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -81,8 +80,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/testacular.conf.js" />
-        <option value="$PROJECT_DIR$/kperf.js" />
         <option value="$PROJECT_DIR$/kperfSpec.js" />
+        <option value="$PROJECT_DIR$/kperf.js" />
       </list>
     </option>
   </component>
@@ -337,9 +336,7 @@
     <entry file="file://$PROJECT_DIR$/kperf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,21 +377,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperf.js">
+    <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+        <state line="37" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperfSpec.js">
+    <entry file="file://$PROJECT_DIR$/kperf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="478" selection-end="478" vertical-scroll-proportion="0.33518004">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="7" column="23" selection-start="180" selection-end="180" vertical-scroll-proportion="0.29085872">
+          <folding />
         </state>
       </provider>
     </entry>
