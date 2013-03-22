@@ -35,8 +35,7 @@ var supers = function kperf( walk, run){
 
 };
 */
-var kperf = function (){
-    return 2 + 3;
+var kperf = function () {
 }
 
 describe("supers", function() {
@@ -48,7 +47,7 @@ describe("supers", function() {
     });
 
 
-   
+
 
 
 });

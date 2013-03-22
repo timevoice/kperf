@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-22T20:07:58" id="0" hostname="MacBook-Pro-voice.local" tests="1" errors="0" failures="0" time="0.003">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-22T20:10:22" id="0" hostname="MacBook-Pro-voice.local" tests="1" errors="0" failures="0" time="0.003">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
