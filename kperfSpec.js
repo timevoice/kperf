@@ -18,13 +18,9 @@
 
 
 
-function returnOne() {
-    return 1;
-
-}
 
 
-var walk =  function () {
+/*var walk =  function () {
     a = 2;
     b = 3;
     return a + b;
@@ -38,24 +34,21 @@ var run = function (){
 var supers = function kperf( walk, run){
 
 };
-
+*/
+var kperf = function (){
+    return 2 + 3;
+}
 
 describe("supers", function() {
-    it( function() {
-        expect(supers()).toBe(5);
+
+    it("  function kperf", function() {
+
+        expect(kperf).toEqual(jasmine.any(Function));
+
     });
 
-    it("walk", function() {
-        expect(walk(window.document)).toBeDefined();
-    });
 
-    it("run", function() {
-        expect(run(window.document)).toBeDefined();
-    });
-
-    it("returnOne",  function() {
-        expect(returnOne(0)).toBe(1);
-    });
+   
 
 
 });
