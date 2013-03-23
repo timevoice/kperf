@@ -58,10 +58,12 @@ describe("supers", function() {
     var run  = jasmine.createSpy('run');
     var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
-
          b();
+        walk();
+        run();
 
-    expect(run).toHaveBeenCalled();
+
+        expect(run).toHaveBeenCalled();
     expect(walk).toHaveBeenCalled();
 
     });
