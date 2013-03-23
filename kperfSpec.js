@@ -20,17 +20,8 @@
 
 
 
-/*var walk =  function () {
-    a = 2;
-    b = 3;
-    return a + b;
-}
 
-var run = function (){
-    return 2 + 3;
-}
-
-
+/*
 var supers = function kperf( walk, run){
 
 };
@@ -51,7 +42,18 @@ describe("supers", function() {
         expect(b).toEqual(jasmine.any(Function));
 
     });
+    it("function return kperf2", function() {
 
+        expect(kperf).toThrow();
+
+    });
+
+
+    it("function return kperf3", function() {
+
+        expect( kperf.bind(null, "", "") ).toThrow();
+
+    });
 
 });
 
