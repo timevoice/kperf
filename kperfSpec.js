@@ -30,28 +30,39 @@ var supers = function kperf( walk, run){
 
 describe("supers", function() {
 
-    it("  function kperf", function() {
+    it("  return kperf", function() {
 
         expect(kperf).toEqual(jasmine.any(Function));
 
     });
 
-    it("function return kperf", function() {
-        var b = kperf();
+    it("убедиться что возвращается функция ", function() {
+        var b = kperf(walk, run);
 
         expect(b).toEqual(jasmine.any(Function));
 
     });
-    it("function return kperf2", function() {
+    it("Убедиться что  kperf это функция", function() {
 
         expect(kperf).toThrow();
 
     });
 
 
-    it("function return kperf3", function() {
+    it("Если запустить kperf и не передать аргументов", function() {
 
         expect( kperf.bind(null, "", "") ).toThrow();
+
+    });
+    it("вызывались ли аргументы", function() {
+    var run  = jasmine.createSpy('run');
+    var walk = jasmine.createSpy('walk');
+        var b = kperf(walk, run);
+
+         b();
+
+    expect(run).toHaveBeenCalled();
+    expect(walk).toHaveBeenCalled();
 
     });
 

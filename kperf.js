@@ -16,13 +16,12 @@ var run = function (){
     return 2 + 3;
 }
 
-var kperf = function () {
+ var kperf = function  (walk, run) {
 
-    if((typeof walk) != 'function' || (typeof run) != 'function' ){
-        throw "Ошибка один из аргументов не является функцией";
-    }
+     if((typeof walk) != 'function' || (typeof run) != 'function' ){
+        throw "Ошибка один из аргументов не является функцией";
+    }
+       return  function ()  {}
 
-    return function tron(walk, run){
-    };
 }
 
