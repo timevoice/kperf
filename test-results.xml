@@ -1,24 +1,16 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-24T01:21:29" id="0" hostname="MacBook-Pro-voice.local" tests="6" errors="0" failures="1" time="0.005">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-24T16:45:22" id="0" hostname="MacBook-Pro-voice.local" tests="7" errors="0" failures="0" time="0.005">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
     <testcase name="  return kperf" time="0.003" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="убедиться что возвращается функция " time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="убедиться что возвращается функция " time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Убедиться что  kperf это функция" time="0" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="Если запустить kperf и не передать аргументов" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="вызывались ли аргументы" time="0" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).supers">
-      <failure type="">Expected spy run not to have been called.
-Error: Expected spy run not to have been called.
-    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:75:25)
-</failure>
-      <failure type="">Expected spy walk not to have been called.
-Error: Expected spy walk not to have been called.
-    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:76:26)
-</failure>
-    </testcase>
+    <testcase name="Если запустить kperf и не передать аргументов" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="вызывались ли аргументы" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="Передает аргументы вложенным функциям" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>

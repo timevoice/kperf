@@ -22,9 +22,10 @@ var run = function (){
         throw "Ошибка один из аргументов не является функцией";
               }
 
-    walk();
-    run();
-     return  function ()  {}
+     return  function (h)  {
+         walk(h);
+         run(h);
+     }
 
 
 }

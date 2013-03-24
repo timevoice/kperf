@@ -70,10 +70,23 @@ describe("supers", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
 
-        var b = kperf(walk, run);
+         kperf(walk, run);
 
         expect(run).not.toHaveBeenCalled();
         expect(walk).not.toHaveBeenCalled();
+
+    });
+
+
+    it("Передает аргументы вложенным функциям", function() {
+        var run  = jasmine.createSpy('run');
+        var walk = jasmine.createSpy('walk');
+        var b = kperf(walk, run);
+
+        b('hello');
+
+        expect(run).toHaveBeenCalledWith( 'hello');
+        expect(walk).toHaveBeenCalledWith( 'hello');
 
     });
 });
