@@ -37,7 +37,7 @@ describe("supers", function() {
     });
 
     it("убедиться что возвращается функция ", function() {
-        var b = kperf(walk, run);
+        var b = kperf(function(){}, function(){});
 
         expect(b).toEqual(jasmine.any(Function));
 
@@ -113,7 +113,7 @@ describe("supers", function() {
         expect(walk).toHaveBeenCalledWith( 1,2,3,4,5);
 
     });
-   /* it("если результат возвращаемой функциями будет разный то будет исключение", function() {
+    it("если результат возвращаемой функциями будет разный то будет исключение", function() {
 
        var a = walk();
        var b = run();
@@ -122,7 +122,21 @@ describe("supers", function() {
 
 
 
-    }); */
+    });
+
+    it("если результат возвращаемый функциями будет одинаковый то вернуть результат  ", function() {
+        var a = walk();
+        var b = run();
+        var c = kperf(walk, run);
+        var d =  c(a,b);
+
+
+        expect(a).toEqual(d);
+
+
+
+    });
+
 
 });
 

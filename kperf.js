@@ -6,11 +6,11 @@
  * To change this template use File | Settings | File Templates.
  */
 
-/*var walk =  function () {
+var walk =  function () {
     a = 2;
     b = 3;
-    return 3;
-} */
+    return 2 + 1;
+}
 
 var run = function (){
     return  3;
@@ -30,12 +30,12 @@ var run = function (){
          run.apply(null, arguments);
 
          if ((walk() == run())){
-             return walk ;
+             return walk() ;
          }
          else {
              throw "Ошибка аргументы разные";
 
-         };
+         }
 
      }
 
