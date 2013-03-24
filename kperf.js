@@ -6,15 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var walk =  function () {
-    a = 2;
-    b = 3;
-    return 2 + 1;
-}
-
-var run = function (){
-    return  3;
-}
 
  var kperf = function  (walk, run) {
 

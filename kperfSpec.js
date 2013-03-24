@@ -114,24 +114,40 @@ describe("supers", function() {
 
     });
     it("если результат возвращаемой функциями будет разный то будет исключение", function() {
+        var walk =  function () {
+            a = 2;
+            b = 3;
+            return 2 + 1;
+        }
 
-       var a = walk();
-       var b = run();
+        var run = function (){
+            return  3;
+        }
 
-        expect(a).toEqual(b);
+
+
+        expect(walk()).toEqual(run());
 
 
 
     });
 
     it("если результат возвращаемый функциями будет одинаковый то вернуть результат  ", function() {
-        var a = walk();
-        var b = run();
+        var walk =  function () {
+            a = 2;
+            b = 3;
+            return 2 + 1;
+        }
+
+        var run = function (){
+            return  3;
+        }
+
         var c = kperf(walk, run);
-        var d =  c(a,b);
+        var d =  c(walk(),run());
 
 
-        expect(a).toEqual(d);
+        expect(walk()).toEqual(d);
 
 
 
