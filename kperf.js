@@ -20,7 +20,8 @@ var run = function (){
 
      if((typeof walk) != 'function' || (typeof run) != 'function' ){
         throw "Ошибка один из аргументов не является функцией";
-    }
+              }
+
     walk();
     run();
      return  function ()  {}

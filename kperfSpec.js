@@ -69,8 +69,12 @@ describe("supers", function() {
     it(" не вызываeт аргументы до вызова супер-функции", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
+
+        var b = kperf(walk, run);
+
         expect(run).not.toHaveBeenCalled();
         expect(walk).not.toHaveBeenCalled();
+
     });
 });
 
