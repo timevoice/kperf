@@ -6,14 +6,14 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var walk =  function () {
+/*var walk =  function () {
     a = 2;
     b = 3;
-    return a + b;
-}
+    return 3;
+} */
 
 var run = function (){
-    return 2 + 3;
+    return  3;
 }
 
  var kperf = function  (walk, run) {
@@ -22,11 +22,20 @@ var run = function (){
         throw "Ошибка один из аргументов не является функцией";
               }
 
+        //super function
      return  function ()  {
 
 
          walk.apply(null, arguments);
          run.apply(null, arguments);
+
+         if ((walk() == run())){
+             return walk ;
+         }
+         else {
+             throw "Ошибка аргументы разные";
+
+         };
 
      }
 
