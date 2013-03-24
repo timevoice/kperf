@@ -101,6 +101,18 @@ describe("supers", function() {
         expect(walk).toHaveBeenCalledWith( 1,2,3,4);
 
     });
+
+    it("Передает несколько аргументов вложенным функциям многим", function() {
+        var run  = jasmine.createSpy('run');
+        var walk = jasmine.createSpy('walk');
+        var b = kperf(walk, run);
+
+        b(1,2,3,4,5);
+
+        expect(run).toHaveBeenCalledWith( 1,2,3,4,5);
+        expect(walk).toHaveBeenCalledWith( 1,2,3,4,5);
+
+    });
 });
 
 
