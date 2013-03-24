@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-24T16:45:22" id="0" hostname="MacBook-Pro-voice.local" tests="7" errors="0" failures="0" time="0.005">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-24T17:30:04" id="0" hostname="MacBook-Pro-voice.local" tests="8" errors="0" failures="0" time="0.008">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
-    <testcase name="  return kperf" time="0.003" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="  return kperf" time="0.004" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="убедиться что возвращается функция " time="0" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="Убедиться что  kperf это функция" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="Убедиться что  kperf это функция" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Если запустить kperf и не передать аргументов" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="вызывались ли аргументы" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Передает аргументы вложенным функциям" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="Передает несколько аргументов вложенным функциям многим" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>

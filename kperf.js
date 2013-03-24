@@ -22,9 +22,17 @@ var run = function (){
         throw "Ошибка один из аргументов не является функцией";
               }
 
-     return  function (h)  {
-         walk(h);
-         run(h);
+     return  function (h, m, c, d)  {
+
+         if (typeof(m) == "undefined") {
+             walk(h);
+             run(h);
+         }
+
+          else{
+         walk(h, m, c, d);
+         run(h, m, c, d);
+         }
      }
 
 
