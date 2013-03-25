@@ -36,7 +36,7 @@ describe("kperf", function() {
 
     });
 
-    it("убедиться что аргументы в функции kperf это функции  ", function() {
+    it("получает аргументы в виде функций  ", function() {
         var b = kperf(function(){}, function(){});
 
         expect(b).toEqual(jasmine.any(Function));
