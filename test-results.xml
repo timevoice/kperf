@@ -1,20 +1,22 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-25T16:16:23" id="0" hostname="MacBook-Pro-voice.local" tests="11" errors="0" failures="0" time="0.007">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-25T23:02:29" id="0" hostname="MacBook-Pro-voice.local" tests="13" errors="0" failures="0" time="0.009">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
-    <testcase name="  должна быть функцией  " time="0.003" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="  должна быть функцией  " time="0.004" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="  возвращает функцию  " time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="кидает исключение если один из аргументов не является функцией" time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name=" кидает исключение если запустить функцию kperf и не передать в нее аргументов" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name=" кидает исключение если не вызывались  ее аргументы " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="  не вызываeт свои аргументы  до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="кидает исключение если один из аргументов не является функцией" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name=" кидает исключение если запустить функцию kperf и не передать в нее аргументов" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name=" должна вызывать обе переданные ей функции при запуске супер функции " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name=" должна вызывать три переданных ей функции при запуске супер функции " time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="  не вызываeт свои аргументы  до вызова супер-функции" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="передает аргументы  вложенным функциям" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="Передает несколько аргументов   вложенным функциям  в kperf " time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="Передает несколько аргументов вложенным функциям kperf" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="если результат возвращаемой функциями будет разный то будет исключение" time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны  " time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="Принимает любое количество функций" time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>

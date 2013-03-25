@@ -12,15 +12,21 @@
      if((typeof walk) != 'function' || (typeof run) != 'function' ){
         throw "Ошибка один из аргументов не является функцией";
               }
+    var args = arguments;
 
-        //super function
+    //super function
      return  function ()  {
 
 
        var a = walk.apply(null, arguments);
        var b = run.apply(null, arguments);
+         for(i=2;i<args.length;i++) {
+             args[i].apply(null, arguments);
 
-         if (( a == b)){
+     }
+
+
+         if (( a == b )){
              return a ;
          }
          else {
