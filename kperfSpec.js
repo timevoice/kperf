@@ -113,6 +113,7 @@ describe("supers", function() {
         expect(walk).toHaveBeenCalledWith( 1,2,3,4,5);
 
     });
+    /*
     it("если результат возвращаемой функциями будет разный то будет исключение", function() {
         var walk =  function () {
             a = 2;
@@ -130,7 +131,7 @@ describe("supers", function() {
 
 
 
-    });
+    }); */
 
     it("если результат возвращаемый функциями a будет одинаковый то вернуть результат супер функции  ", function() {
         var a = function (){return 1};
