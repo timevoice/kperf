@@ -133,14 +133,13 @@ describe("kperf", function() {
 
     }); */
 
-    it("возвращает результат  если возвращаемые результаты  2 вложенных функции будут равны  ", function() {
+    it("возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны  ", function() {
         var a = function (){return 1};
 
         var c = kperf(a, a);
-        var d =  c();
 
 
-        expect(1).toEqual(d());
+        expect(a()).toEqual(c());
 
 
 
