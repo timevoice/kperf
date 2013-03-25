@@ -113,25 +113,19 @@ describe("kperf", function() {
         expect(walk).toHaveBeenCalledWith( 1,2,3,4,5);
 
     });
-    /*
+
     it("если результат возвращаемой функциями будет разный то будет исключение", function() {
-        var walk =  function () {
-            a = 2;
-            b = 3;
-            return 2 + 1;
-        }
+        var a = function (){return 1};
+        var b = function (){return 2};
+        var c = kperf(a, b);
 
-        var run = function (){
-            return  3;
-        }
+        expect(c).toThrow();
 
 
 
-        expect(walk()).toEqual(run());
 
 
-
-    }); */
+    });
 
     it("возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны  ", function() {
         var a = function (){return 1};
