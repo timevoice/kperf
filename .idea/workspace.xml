@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
     </list>
     <ignored path="l.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="10" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.6962025">
+            <state line="35" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.49367088">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -434,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="10" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.6962025">
+        <state line="35" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.49367088">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

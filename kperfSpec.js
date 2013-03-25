@@ -30,13 +30,13 @@ var supers = function kperf( walk, run){
 
 describe("supers", function() {
 
-    it("  return kperf", function() {
+    it("  убедиться что возвращается kperf  ", function() {
 
         expect(kperf).toEqual(jasmine.any(Function));
 
     });
 
-    it("убедиться что возвращается функция kperf  ", function() {
+    it("убедиться что аргументы в функции kperf это функции  ", function() {
         var b = kperf(function(){}, function(){});
 
         expect(b).toEqual(jasmine.any(Function));
