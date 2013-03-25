@@ -36,7 +36,7 @@ describe("supers", function() {
 
     });
 
-    it("убедиться что возвращается kperf  ", function() {
+    it("убедиться что возвращается функция kperf  ", function() {
         var b = kperf(function(){}, function(){});
 
         expect(b).toEqual(jasmine.any(Function));
@@ -49,12 +49,12 @@ describe("supers", function() {
     });
 
 
-    it("Если запустить kperf и не передать аргументов", function() {
+    it("Если запустить функцию kperf и не передать аргументов", function() {
 
         expect( kperf.bind(null, "", "") ).toThrow();
 
     });
-    it("вызывались ли аргументы", function() {
+    it("вызывались ли аргументы ", function() {
     var run  = jasmine.createSpy('run');
     var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
