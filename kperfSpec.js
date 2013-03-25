@@ -42,7 +42,7 @@ describe("kperf", function() {
         expect(b).toEqual(jasmine.any(Function));
 
     });
-    it("Убедиться что  kperf это функция", function() {
+    it("кидает исключение если один из аргументов не является функцией", function() {
 
         expect(kperf).toThrow();
 
