@@ -36,7 +36,7 @@ describe("supers", function() {
 
     });
 
-    it("убедиться что возвращается функция ", function() {
+    it("убедиться что возвращается kperf  ", function() {
         var b = kperf(function(){}, function(){});
 
         expect(b).toEqual(jasmine.any(Function));

@@ -17,11 +17,11 @@
      return  function ()  {
 
 
-         walk.apply(null, arguments);
-         run.apply(null, arguments);
+        walk.apply(null, arguments);
+        run.apply(null, arguments);
 
-         if ((walk() == run())){
-             return walk() ;
+         if (( walk == run)){
+             return walk ;
          }
          else {
              throw "Ошибка аргументы разные";
