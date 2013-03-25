@@ -133,21 +133,13 @@ describe("supers", function() {
     });
 
     it("если результат возвращаемый функциями будет одинаковый то вернуть результат  ", function() {
-        var walk =  function () {
-            a = 2;
-            b = 3;
-            return 2 + 1;
-        }
+        var a = function (){return 1};
 
-        var run = function (){
-            return  3;
-        }
-
-        var c = kperf(walk, run);
-        var d =  c(walk(),run());
+        var c = kperf(a, a);
+        var d =  c(a(),a());
 
 
-        expect(walk()).toEqual(d);
+        expect(a()).toEqual(d);
 
 
 

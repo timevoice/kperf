@@ -1,20 +1,24 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-24T23:36:57" id="0" hostname="MacBook-Pro-voice.local" tests="11" errors="0" failures="0" time="0.008">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-25T00:13:57" id="0" hostname="MacBook-Pro-voice.local" tests="11" errors="0" failures="1" time="0.011">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
     <testcase name="  return kperf" time="0.004" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="убедиться что возвращается функция " time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="убедиться что возвращается функция " time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Убедиться что  kperf это функция" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Если запустить kperf и не передать аргументов" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="вызывались ли аргументы" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name=" не вызываeт аргументы до вызова супер-функции" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Передает аргументы вложенным функциям" time="0.001" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Передает несколько аргументов вложенным функциям многим" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="Передает несколько аргументов вложенным функциям многим" time="0" classname="Chrome 25.0 (Mac).supers"/>
     <testcase name="если результат возвращаемой функциями будет разный то будет исключение" time="0" classname="Chrome 25.0 (Mac).supers"/>
-    <testcase name="если результат возвращаемый функциями будет одинаковый то вернуть результат  " time="0.001" classname="Chrome 25.0 (Mac).supers"/>
+    <testcase name="если результат возвращаемый функциями будет одинаковый то вернуть результат  " time="0.004" classname="Chrome 25.0 (Mac).supers">
+      <failure type="">TypeError: number is not a function
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:142:29)
+</failure>
+    </testcase>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>
