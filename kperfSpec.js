@@ -28,9 +28,9 @@ var supers = function kperf( walk, run){
 */
 
 
-describe("supers", function() {
+describe("kperf", function() {
 
-    it("  убедиться что возвращается kperf  ", function() {
+    it("  должна быть функцией  ", function() {
 
         expect(kperf).toEqual(jasmine.any(Function));
 
