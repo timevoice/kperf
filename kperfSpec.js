@@ -49,12 +49,12 @@ describe("supers", function() {
     });
 
 
-    it("Если запустить функцию kperf и не передать аргументов", function() {
+    it("Если запустить функцию kperf и не передать в нее аргументов", function() {
 
         expect( kperf.bind(null, "", "") ).toThrow();
 
     });
-    it("вызывались ли аргументы ", function() {
+    it("вызывались ли аргументы функции  kperf ", function() {
     var run  = jasmine.createSpy('run');
     var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -66,7 +66,7 @@ describe("supers", function() {
 
     });
 
-    it(" не вызываeт аргументы до вызова супер-функции", function() {
+    it(" не вызываeт аргументы kperf до вызова супер-функции", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
 
@@ -78,7 +78,7 @@ describe("supers", function() {
     });
 
 
-    it("Передает аргументы вложенным функциям", function() {
+    it("Передает аргументы kperf вложенным функциям", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -90,7 +90,7 @@ describe("supers", function() {
 
     });
 
-    it("Передает несколько аргументов вложенным функциям многим", function() {
+    it("Передает несколько аргументов   вложенным функциям  в kperf ", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -102,7 +102,7 @@ describe("supers", function() {
 
     });
 
-    it("Передает несколько аргументов вложенным функциям многим", function() {
+    it("Передает несколько аргументов вложенным функциям kperf", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -132,7 +132,7 @@ describe("supers", function() {
 
     });
 
-    it("если результат возвращаемый функциями будет одинаковый то вернуть результат  ", function() {
+    it("если результат возвращаемый функциями a будет одинаковый то вернуть результат супер функции  ", function() {
         var a = function (){return 1};
 
         var c = kperf(a, a);
