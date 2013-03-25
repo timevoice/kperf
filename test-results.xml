@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-25T02:17:15" id="0" hostname="MacBook-Pro-voice.local" tests="10" errors="0" failures="5" time="0.007">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-25T02:34:08" id="0" hostname="MacBook-Pro-voice.local" tests="10" errors="0" failures="5" time="0.009">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
     <testcase name="  должна быть функцией  " time="0.004" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="получает аргументы в виде функций  " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="  возвращает функцию  " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="Убедиться что  kperf это функция" time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="Если запустить функцию kperf и не передать в нее аргументов" time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="вызывались ли аргументы функции  kperf " time="0.001" classname="Chrome 25.0 (Mac).kperf">
       <failure type="">Ошибка аргументы разные
 </failure>
     </testcase>
-    <testcase name=" не вызываeт аргументы kperf до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name=" не вызываeт аргументы kperf до вызова супер-функции" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="Передает аргументы kperf вложенным функциям" time="0" classname="Chrome 25.0 (Mac).kperf">
       <failure type="">Ошибка аргументы разные
 </failure>
@@ -21,7 +21,7 @@
       <failure type="">Ошибка аргументы разные
 </failure>
     </testcase>
-    <testcase name="Передает несколько аргументов вложенным функциям kperf" time="0" classname="Chrome 25.0 (Mac).kperf">
+    <testcase name="Передает несколько аргументов вложенным функциям kperf" time="0.001" classname="Chrome 25.0 (Mac).kperf">
       <failure type="">Ошибка аргументы разные
 </failure>
     </testcase>
