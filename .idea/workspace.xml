@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66d80648-ec91-4906-8f06-d5c210f3bb53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperf.js" afterPath="$PROJECT_DIR$/kperf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kperfSpec.js" afterPath="$PROJECT_DIR$/kperfSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-results.xml" afterPath="$PROJECT_DIR$/test-results.xml" />
     </list>
@@ -46,7 +45,7 @@
       <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="0" selection-start="3847" selection-end="4031" vertical-scroll-proportion="0.8101266">
+            <state line="238" column="109" selection-start="5461" selection-end="5461" vertical-scroll-proportion="-0.6884817">
               <folding />
             </state>
           </provider>
@@ -458,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="0" selection-start="3847" selection-end="4031" vertical-scroll-proportion="0.8101266">
+        <state line="238" column="109" selection-start="5461" selection-end="5461" vertical-scroll-proportion="-0.6884817">
           <folding />
         </state>
       </provider>
