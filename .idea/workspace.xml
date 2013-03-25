@@ -23,10 +23,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kperf.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kperf.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kperf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="30" column="6" selection-start="160" selection-end="625" vertical-scroll-proportion="0.9240506">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kperfSpec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kperfSpec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kperfSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="70" selection-start="716" selection-end="716" vertical-scroll-proportion="0.2278481">
+            <state line="146" column="7" selection-start="2883" selection-end="3122" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -425,19 +425,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kperf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kperfSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="70" selection-start="716" selection-end="716" vertical-scroll-proportion="0.2278481">
+        <state line="146" column="7" selection-start="2883" selection-end="3122" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kperf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="160" selection-end="625" vertical-scroll-proportion="0.9240506">
+          <folding />
         </state>
       </provider>
     </entry>

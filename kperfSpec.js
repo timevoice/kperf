@@ -49,12 +49,12 @@ describe("kperf", function() {
     });
 
 
-    it("Если запустить функцию kperf и не передать в нее аргументов", function() {
+    it(" кидает исключение если запустить функцию kperf и не передать в нее аргументов", function() {
 
         expect( kperf.bind(null, "", "") ).toThrow();
 
     });
-    it("вызывались ли аргументы функции  kperf ", function() {
+    it(" кидает исключение если не вызывались  ее аргументы ", function() {
     var run  = jasmine.createSpy('run');
     var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -66,7 +66,7 @@ describe("kperf", function() {
 
     });
 
-    it(" не вызываeт аргументы kperf до вызова супер-функции", function() {
+    it("  не вызываeт свои аргументы  до вызова супер-функции", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
 
@@ -78,7 +78,7 @@ describe("kperf", function() {
     });
 
 
-    it("Передает аргументы kperf вложенным функциям", function() {
+    it("передает аргументы  вложенным функциям", function() {
         var run  = jasmine.createSpy('run');
         var walk = jasmine.createSpy('walk');
         var b = kperf(walk, run);
@@ -133,14 +133,14 @@ describe("kperf", function() {
 
     }); */
 
-    it("если результат возвращаемый функциями a будет одинаковый то вернуть результат супер функции  ", function() {
+    it("возвращает результат  если возвращаемые результаты  2 вложенных функции будут равны  ", function() {
         var a = function (){return 1};
 
         var c = kperf(a, a);
-        var d =  c(a(),a());
+        var d =  c();
 
 
-        expect(a()).toEqual(d);
+        expect(1).toEqual(d());
 
 
 
