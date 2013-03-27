@@ -34,7 +34,6 @@ describe("kperf", function() {
 
         expect(kperf).toEqual(jasmine.any(Function));
 
-
     });
 
     it("  возвращает функцию для трех аргументов ", function() {
@@ -42,6 +41,8 @@ describe("kperf", function() {
         var b = kperf(function(){}, function(){} ,function(){});
 
         expect(b).toEqual(jasmine.any(Function));
+
+
 
 
 
@@ -277,6 +278,14 @@ describe("kperf", function() {
         var b = function (){return 1};
         var g = function (){return 3};
         var c = kperf(a, b , g);
+
+        expect(c).toThrow();
+    });
+
+   it("если результат возвращаемой функциями будет разный то будет исключение для четырех функций", function() {
+        var a = function (){return 1};
+        var b = function (){return 3};
+        var c = kperf(a, a , a, b,b, a);
 
         expect(c).toThrow();
     });

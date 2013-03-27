@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-26T15:17:19" id="0" hostname="MacBook-Pro-voice.local" tests="21" errors="0" failures="0" time="0.011">
+  <testsuite name="Chrome 25.0 (Mac)" package="undefined" timestamp="2013-03-27T00:01:19" id="0" hostname="MacBook-Pro-voice.local" tests="22" errors="0" failures="9" time="0.018">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22"/>
     </properties>
@@ -10,22 +10,71 @@
     <testcase name="кидает исключение если один из аргументов не является функцией" time="0" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name=" кидает исключение если запустить функцию kperf и не передать в нее аргументов" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name=" кидает исключение если запустить функцию kperf и не передать в нее 3 аргументов" time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name=" должна вызывать обе переданные ей функции при запуске супер функции " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name=" должна вызывать три переданных ей функции при запуске супер функции " time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="  не вызываeт свои аргументы  до вызова супер-функции" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name=" должна вызывать обе переданные ей функции при запуске супер функции " time="0.004" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:83:10)
+</failure>
+    </testcase>
+    <testcase name=" должна вызывать три переданных ей функции при запуске супер функции " time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:97:9)
+</failure>
+    </testcase>
+    <testcase name="  не вызываeт свои аргументы  до вызова супер-функции" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="  не вызываeт свои аргументы  до вызова супер-функции для 3 аргументов" time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="передает аргументы  вложенным функциям" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="передает аргументы  вложенным функциям для 3 аргументов" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="Передает несколько аргументов   вложенным функциям  в kperf для 3 аргументов " time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="Передает несколько аргументов   вложенным функциям  в kperf " time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="Передает несколько аргументов вложенным функциям kperf" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="если результат возвращаемой функциями будет разный то будет исключение для 3 аргументов" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="передает аргументы  вложенным функциям" time="0" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:146:9)
+</failure>
+    </testcase>
+    <testcase name="передает аргументы  вложенным функциям для 3 аргументов" time="0" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:161:9)
+</failure>
+    </testcase>
+    <testcase name="Передает несколько аргументов   вложенным функциям  в kperf для 3 аргументов " time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:178:9)
+</failure>
+    </testcase>
+    <testcase name="Передает несколько аргументов   вложенным функциям  в kperf " time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:192:9)
+</failure>
+    </testcase>
+    <testcase name="Передает несколько аргументов вложенным функциям kperf" time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:209:9)
+</failure>
+    </testcase>
+    <testcase name="если результат возвращаемой функциями будет разный то будет исключение для 3 аргументов" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
     <testcase name="если результат возвращаемой функциями будет разный то будет исключение" time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны для 3 аргументов  " time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны  " time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны для 3 аргументов  " time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:251:29)
+</failure>
+    </testcase>
+    <testcase name="возвращает результат,  если возвращаемые результаты  2 вложенных функции будут равны  " time="0.001" classname="Chrome 25.0 (Mac).kperf">
+      <failure type="">ReferenceError: с1 is not defined
+    at /Users/voice/PhpstormProjects/l/kperf.js:43:22
+    at null.&lt;anonymous&gt; (/Users/voice/PhpstormProjects/l/kperfSpec.js:263:29)
+</failure>
+    </testcase>
     <testcase name="Принимает любое количество функций" time="0" classname="Chrome 25.0 (Mac).kperf"/>
-    <testcase name="если результат возвращаемой функциями будет разный то будет исключение для трех функций" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
-    <system-out><![CDATA[
+    <testcase name="если результат возвращаемой функциями будет разный то будет исключение для трех функций" time="0" classname="Chrome 25.0 (Mac).kperf"/>
+    <testcase name="если результат возвращаемой функциями будет разный то будет исключение для четырех функций" time="0.001" classname="Chrome 25.0 (Mac).kperf"/>
+    <system-out><![CDATA[Chrome 25.0 (Mac) ERROR
+	Uncaught ReferenceError: a1 is not defined
+	at /Users/voice/PhpstormProjects/l/kperf.js:60
+
 ]]></system-out>
     <system-err/>
   </testsuite>

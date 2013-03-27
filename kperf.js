@@ -8,7 +8,6 @@
 
 
  var kperf = function  (walk, run) {
-    var a1 = new Date();
 
      if((typeof walk) != 'function' || (typeof run) != 'function' ){
         throw "Ошибка один из аргументов не является функцией";
@@ -19,33 +18,38 @@
      return  function ()  {
 
 var m =[];
-       var a = walk.apply(null, arguments);
-       var b = run.apply(null, arguments);
+         var a1 = new Date();
+
+       //  var a = walk.apply(null, arguments);
+    //   var b = run.apply(null, arguments);
+         // заносит в массив возвращенное значение из функции а
          for(i=0;i<args.length;i++) {
          m[i] = args[i].apply(null, arguments);
+
      }
-            if(( m[2]  )) {
-         if ((  m[0] == m[1]  == m[2] )){
-             return a ;
-         }
-         else {
-             throw "Ошибка аргументы разные";
 
-         }
-            }
-         else{
-                if ((  m[0] == m[1]   )){
-                    return a ;
-                }
-                else {
-                    throw "Ошибка аргументы разные";
 
-                }
 
-            }
+
+             var arg = [] ;
+
+                for(i=0;i<args.length;i++) {
+                   if(m[0] == m[i]){
+                        arg = arg + 1 ;
+                     }
+                   }
          var b1 = new Date();
-         var c1 = b1.getTime() - a1.getTime();
-         console.log(c1);
+         var  c1 = b1.getTime() - a1.getTime();
+         console.log(с1);
+
+           if(m.length  == arg.length){
+               return m[0] ;
+           }
+                else{
+               throw "Ошибка аргументы разные";
+
+           }
+
 
 
 
@@ -54,5 +58,4 @@ var m =[];
 
 
 }
-
 
